@@ -1,5 +1,16 @@
 
 
+#form_section {
+  display: block;
+  padding-top: 10%;
+}
+
+.centered {
+  padding-top: 15%;
+  margin: auto;
+  padding: 0 50px;
+  max-width: 1410px;
+
 form {
   display: table;
   margin: 33px auto;
@@ -68,25 +79,4 @@ form {
     }
   }
 }
-
-
-#form_section {
-  display: block;
-  padding-top: 10%;
-}
-
-.centered {
-  padding-top: 15%;
-  margin: auto;
-  padding: 0 50px;
-  max-width: 1410px;
-
-  // .form {
-  //   width: 400px;
-  //   padding-top: 15px;
-  //   margin: auto;
-  //   padding: 0 50px;
-  //   max-width: 500px;
-  //
-  // }
 }
