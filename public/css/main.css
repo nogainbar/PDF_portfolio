@@ -83,9 +83,51 @@ p {
   padding: 0 50px;
   max-width: 1410px; }
 
+.wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .wrapper .split-item {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 50%; }
+  .wrapper .left-wrapper {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1; }
+  .wrapper .right-wrapper {
+    height: 280px; }
+
 .nav {
   background: #fff;
   font-family: "Open Sans", sans-serif;
   height: 100px; }
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=main.css.map */
