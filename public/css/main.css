@@ -74,6 +74,9 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px; }
 
+.not-found {
+  color: #7262C9; }
+
 #section {
   display: block;
   padding-top: 15px; }
